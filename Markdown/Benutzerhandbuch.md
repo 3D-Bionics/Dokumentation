@@ -1,13 +1,13 @@
 ---
 title: Benutzerhandbuch
-subtitle: 3D-Bionics
-version: 1.0
+subtitle: 3D-Bionics Hand
 institution: Technische Hochschule Aschaffenburg
 version: 1.0
-date: Stand 20.07.2021
+date: 20.07.2021
 toc: True
 toc-title: Inhaltsverzeichnis
 ---
+
 
 #  Einleitung
 

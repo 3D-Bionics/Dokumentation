@@ -30,7 +30,7 @@ Die folgenden Berechnungen dienen nur der Veranschaulichung und sind ohne Gewäh
 
 #### Free – 0€
 
-*<u>Hier bitte Erklärung einfügen was Free ist, haben wir doch bestimmt, oder?</u>*
+Der Kunde erhält Zugang zu allen CAD-Dateien, sowie dem Quellcode für das Softwareinterfaces und den Mikrocontroller
 
 #### DIY – 65,45€
 

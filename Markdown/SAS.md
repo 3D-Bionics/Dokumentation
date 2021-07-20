@@ -1,9 +1,10 @@
 ---
 title: "System Architektur Spezifikation"
+subtitle: "3D-Bionics Hand"
 version: 1.0
 date: Stand 20.07.2021
-keywords: [THAB, Informatik IV, 3D-Bionics]
 toc: True
+toc-depth: 2
 toc-title: Inhaltsverzeichnis
 
 ---
@@ -52,7 +53,7 @@ Von diesem Dokument aus wird die Architektur und Implementierung für die Softwa
 
 - **UI, Userinterface:** User-Interface der Kontroll-App
 
-- **Communication-Framework, Comframe, COM: ** Framework, welches die Kommunikation der Positionen der einzelnen Finger zwischen der Kontroll-Software und dem Arduino regelt. Es legt die Grundstruktur und unterliegende Protokolle fest.
+- **Communication-Framework, Comframe, COM:** Framework, welches die Kommunikation der Positionen der einzelnen Finger zwischen der Kontroll-Software und dem Arduino regelt. Es legt die Grundstruktur und unterliegende Protokolle fest.
 
 
 
