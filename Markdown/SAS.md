@@ -440,7 +440,43 @@ classDiagram
 
 # Implementierung
 
-## Communication-Framework in Python
+## Python Project Tree
+
+```shell
+handcontrol # complete Package
+├── __init__.py 
+├── __main__.py # Entrypoint
+└── src
+    ├── communication_framework # Implementation für Back-End
+    │   ├── CallableDict.py
+    │   ├── Comframe.py # Implementation für Comframe
+    │   ├── hand_object.py # Implementation für Hand-Modell
+    │   ├── __init__.py
+    │   └── positions.py # Spezifikation der vorgefertigten  
+    │ 					 # Positionen und Animationen
+    ├── demo.py # Demo script für Demonstrationen
+    ├── __init__.py
+    ├── ui_App.py # Definition des TUI
+    └── ui_widgets.py # Definition der Widgets für TUI
+```
+
+
+
+## Implementation asynchroner Kommunikation im Communication-Framework 
+
+Das COM hat einen internen Buffer welcher als Speicher für die abzuspielende Animation fungiert. Mit den Methoden  `queue_position` und `queue_clear` kann auf diesen Buffer geschrieben werden.
+
+Eine worker-Methode wird definiert, welche den internen Buffer abarbeitet und die Positionen, mit einem entsprechenden Delay zwischen den Nachrichten, versendet. Zugleich wird innerhalb der Worker-Methode eine Funktion aufgerufen, welche die einkommenden Pakete verarbeitet. Diese Worker-Methode arbeitet auf einem separaten Daemon-Thread, welcher bei Objekt-Erstellung gestartet wird.
+
+Für die eigentliche Kommunikation ist die Library SerialTransfer zuständig. Der Worker ruft lediglich Funktionen aus dieser Library auf, um Positionen zu versenden.
+
+## SerialTransfer Callback Funktionen
+
+Alle Pakete haben eine PaketID. Mit Hilfe von SerialTransfer ist es möglich für eine PaketID eine Callback-Funktion oder Methode aufzurufen.
+
+In der Python Implementation wird bei dem Empfang eines Positions-Updates das interne Hand-Modell geupdated.
+
+In der Arduino Implementation wird bei dem Empfang eines Positions-Updates eine Positions-Bestätigung zurück gesendet, sowie die Servos auf die richtigen Positionen ausgerichtet.
 
 
 
