@@ -13,11 +13,11 @@ toc-title: Inhaltsverzeichnis
 
 ## Allgemeine Warnhinweise
 
-Die 3D-Bionic-Hand dient hauptsächlich als Lehr- und Übungsmaterial. Es ist zwar möglich leichte Objekte zu heben, dennoch hat die Bionic Hand, bei weitem nicht die Griffkraft und Stabilität einer Roboterhand. Da es möglich ist, dass die nach eigens vorgenommenen Änderungen, nicht mehr so funktioniert, wie sie soll, wird empfohlen, den originalen Code immer verfügbar zu haben.
+Die 3D-Bionic-Hand dient hauptsächlich als Lehr- und Übungsmaterial. Es ist zwar möglich leichte Objekte zu heben, dennoch hat die Bionic Hand, bei weitem nicht die Griffkraft und Stabilität einer Roboterhand. Da durch individuelle Anpassungen oder Änderungen der Software, die Funktionsfähigkeit der Hand nicht garantiert werden kann, sollte der originale Programmcode immer verfügbar sein.
 
 ## Anwendergruppen
 
-Die 3D-Bionic-Hand ist vor allem an Personen, die sich entweder für 3D-Druck oder für Mikrocontrollerprogrammierung interessieren. Somit sind die größten Anwendergruppen private Interessenten, die sich selbst weiterbilden oder einfach nur üben wollen und Bildungseinrichtungen, wie Schule, welche die 3D-Bionic-Hand als Vorführ- oder Lehrmaterial nutzen wollen.
+Die 3D-Bionic-Hand richtet sich vor allem an Personen, die sich entweder für 3D-Druck oder für Mikrocontrollerprogrammierung interessieren. Somit sind die größten Anwendergruppen private Interessenten, die sich selbst weiterbilden oder einfach nur üben möchten und Bildungseinrichtungen, wie Schulen, welche die 3D-Bionic-Hand als Vorführ- oder Lehrmaterial nutzen wollen.
 
 ## Definitionen und Akronyme
 
@@ -31,15 +31,15 @@ Die 3D-Bionic-Hand ist vor allem an Personen, die sich entweder für 3D-Druck od
 
 #  Zusammenbau der Hand
 
-Die Handfläche wird in drei Teilen gedruckt. Dazu kommen dann noch jeweils fünf Teile pro Finger. Im ersten Schritt müssen die Fäden, die später für das Einknicken der Finger verantwortlich sind, in die Fadenführungen in der Handfläche reingelegt werden. Danach werden beide Handflächen Teile mit den Fingerwurzeln verschraubt. Die einzelne Komponente der Finger, werden durch Metallstifte zusammengehalten. Danach wird der Faden durch den Finger gezogen und oben in der Fingerkuppe verknotet. Die Teile des Unterarms werden ebenfalls mit Schrauben an der Handfläche befestigt. Im nächsten Schritt werden die Elektrischen Teile im Unterarm montiert und die Fäden, mit den Servorädern, an den Servomotoren befestigt. Dabei muss unbedingt drauf geachtet werden, dass die Fäden straff zwischen den Fingerkuppen und den Servomotorn gespannt werden, da sich die Finger sonst nicht ganz schließen lassen.
+Die Handfläche wird in drei Teilen gedruckt. Dazu kommen dann noch jeweils fünf Teile pro Finger. Im ersten Schritt müssen die Fäden, die später für das Einknicken der Finger verantwortlich sind, in die Fadenführungen in der Handfläche reingelegt werden. Danach werden beide Handflächen Teile mit den Fingerwurzeln verschraubt. Die einzelne Komponente der Finger, werden durch Metallstifte zusammengehalten. Danach wird der Faden durch den Finger gezogen und oben in der Fingerkuppe verknotet. Die Teile des Unterarms werden ebenfalls mit Schrauben an der Handfläche befestigt. Im nächsten Schritt werden die Elektrischen Teile im Unterarm montiert und die Fäden, mit den Servorädern, an den Servomotoren befestigt. Dabei muss unbedingt darauf geachtet werden, dass die Fäden straff zwischen den Fingerkuppen und den Servomotorn gespannt werden, da sich die Finger sonst nicht ganz schließen lassen.
 
 
 
-<img src="images/media/image1.jpeg" style="width: 6.29167in; height: 4.17708in; zoom: 67%;" />
+<img src="../media/Benutzerhandbuch/image1.jpeg" style="width: 6.29167in; height: 4.17708in; zoom: 67%;" />
 
 #  Installation der Software
 
-Um die Kontrollsoftware installieren zu können, ist es nötig, das `.gz` Archiv auf <https://github.com/3D-Bionics/Hand-Handcontrol/releases> runter zu laden. Als nächstes ist es nötig, in einer Python Konsole, in das Verzeichnis der Datei zu navigieren, um die Software mit dem Befehl `pip install (Archivname)` zu installieren.
+Um die Kontrollsoftware installieren zu können, ist es nötig, das `.gz` Archiv auf <https://github.com/3D-Bionics/Hand-Handcontrol/releases> herunter zu laden. Als nächstes ist es nötig, in einer Python Konsole, in das Verzeichnis der Datei zu navigieren, um die Software mit dem Befehl `pip install (Archivname)` zu installieren.
 
 #  Nutzung der Software
 
@@ -49,7 +49,7 @@ Mit der Software lassen sich dann alle Finger einzeln steuern oder man wählt ei
 
 
 
-<img src="images/media/image2.png" style="width:6in;height:2.70199in" />
+<img src="../media/Benutzerhandbuch/image2.png" style="width:6in;height:2.70199in" />
 
 
 
@@ -59,7 +59,7 @@ Des Weiteren lässt sich, unten links in der Software, der Serial Port wählen.
 
 
 
-<img src="images/media/image3.png" style="width:6.29167in;height:2.84375in" />
+<img src="../media/Benutzerhandbuch/image3.png" style="width:6.29167in;height:2.84375in" />
 
 
 
