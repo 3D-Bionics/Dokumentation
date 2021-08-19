@@ -43,7 +43,7 @@ Um die Kontrollsoftware installieren zu können, ist es nötig, das `.gz` Archiv
 
 #  Nutzung der Software
 
-Um die Kontrollsoftware aufzurufen, muss am Ende nur noch `handcontrol` in der Konsole eingegeben werden und die Software startet.
+Um die Kontrollsoftware aufzurufen, muss am Ende nur noch `handcontrol` in der Konsole eingegeben werden und die Software startet. Es kann sein, dass die Software nicht im PATH verlinkt ist. In diesem Fall kann das Program über den Befehl `python -m handcontrol` ausgeführt werden.
 
 Mit der Software lassen sich dann alle Finger einzeln steuern oder man wählt eine der verfügbaren „Quick Positions“ aus. Neben diesen beiden Funktionen gibt es auch noch mehrere Optionen, die sich, im Zusammenhang mit den Quick Positions auswählen lassen.
 
